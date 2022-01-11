@@ -1,0 +1,82 @@
+.man {
+    background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    height: 750px;
+    }
+.black {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+      height: 150px;
+} 
+ .img {
+  display: inline-block;
+  margin-left: 100px;
+ }
+.orange {
+ background-color: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 14px; 
+}
+ .white{
+  background-color: white;
+  border-radius: 38px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px; 
+  border-bottom: 1px solid;
+  border-bottom-color: #E0E0E0;
+   }
+.Web {
+      font-size: 40px;
+      text-align: center;
+      margin: 30px 600px 0 0;
+}
+.box {
+ margin: 50px 0 0 200px;
+}
+.under{
+    font-size: 10px;
+    color: gray;
+    margin: 80px 0 0 200px;
+}
+.orange1{
+ height: 250px;
+ background-color: orange;
+ margin:0;
+padding:0;
+}
+.daimei{
+ display: inline-block;
+ color: white;
+ font-size: 50px;
+ margin-top: 50px;
+ margin-bottom: 0px;
+ margin-left: 200px;
+}
+.bun{
+ display: inline-block;
+ color: white;
+ margin-top: 0px;
+ margin-left: 200px;
+}
+.saigo{
+ display: inline-block;
+ background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+  padding: 10px;
+  font-size: 16px; 
+  margin-left: 220px;
+  width: 200px;
+}
+
