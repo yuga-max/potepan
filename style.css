@@ -1,21 +1,41 @@
 .man {
     background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
-    background-size: cover;
-    height: 750px;
+    background-size:auto 750px;;
     }
+        @media screen and (max-width: 1080px){
+.man {
+    background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size:1080px 750px;
+}}
+    @media screen and (max-width: 767px){
+.man {
+    height: 850px;
+    }}
+    .Header {
+    width: 100%;
+    position: absolute;
+}
+     .Headersumaho {
+  　height: 50px;
+}
+
+@media screen and (max-width: 787px){
+.Headerpc {
+    display: none;
+}}
+@media screen and (min-width: 787px){
+.Headersumaho {
+    display: none;
+}}
 .black {
     display: inline-block;
     color: black;
     text-decoration: none;
     text-align: center;
     width: 150px;
-      height: 150px;
+    height: 150px;
 } 
- .img {
-  display: inline-block;
-  margin-left: 100px;
- }
-.orange {
+.black1 {
  background-color: orange;
   border-radius: 30px;
   text-decoration: none;
@@ -23,36 +43,194 @@
   padding: 20px;
   font-size: 14px; 
 }
+.black1:hover {
+ background-color: #FCB632;
+}
+@media screen and (max-width: 1080px){
+.black {
+    display: none;
+}}
+@media screen and (max-width: 1080px){
+.black1 {
+    display: none;
+}}
+#humberger {
+  position: relative;
+  height: 20px;
+  width: 28px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div {
+  position: absolute;
+  left: 20px;
+  height: 2px;
+  width: 28px;
+  background-color: #444;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  bottom: 20px;
+}
+#humberger div:nth-of-type(2) {
+  bottom: 10px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 0;}
+  @media screen and (min-width: 1080px){
+  #humberger div {
+  position: absolute;
+  left: 600px;
+  height: 2px;
+  width: 28px;
+  background-color: #444;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}}
+  @media screen and (min-width: 1081px){
+#humberger {
+    display: none;
+}}
+.imgsumaho{
+   background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+    background-size: cover;
+    width: 414px;
+    height: 460px;
+}
+.Web0 {
+ font-size: 25px;
+ text-align: center;
+ padding-top: 300px;
+}
+.img0 {
+  width: 103px;
+  height: 150px;
+  margin-left: 8px;
+}
+.img1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 8px;
+}
+.img2 {
+  width: 103px;
+  height: 150px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px){
+.imgsumaho {
+    display: none;
+}}
+ .img {
+  display: inline-block;
+  margin-left: 100px;
+ }
+ @media screen and (max-width: 767px){
+.img {
+    display: none;
+}}
+.orange {
+  display: inline-block;
+ background-color: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 14px; 
+  }
+  .orange:hover {
+ background-color: #FCB632;
+}
+@media screen and (max-width: 767px){
+.orange {
+  display: block;
+   background-color: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 14px; 
+  margin-top: 100px;
+  margin-left: 5px;
+  width: 80%;
+}
+}
  .white{
+  display: inline-block;
   background-color: white;
   border-radius: 38px;
   text-decoration: none;
   color: black;
   text-align: center;
   padding: 20px;
-  font-size: 14px; 
+  font-size: 16px; 
   border-bottom: 1px solid;
   border-bottom-color: #E0E0E0;
    }
-.Web {
+    @media screen and (max-width: 767px){
+.white {
+  display: block;
+  background-color: white;
+  border-radius: 38px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px; 
+  border-bottom: 1px solid;
+  border-bottom-color: #E0E0E0;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 80%;
+   }}
+.Web1 {
       font-size: 40px;
       text-align: center;
       margin: 30px 600px 0 0;
 }
+@media screen and (max-width: 1080px){
+.Web1 {
+    font-size: 40px;
+      text-align: center;
+      margin: 30px 200px 0 0;
+}}
+@media screen and (max-width: 767px){
+.Web1 {
+    display: none;
+}}
 .box {
  margin: 50px 0 0 200px;
 }
+@media screen and (max-width: 767px){
+.box {
+    margin: 120px 0 0 0;
+}}
 .under{
     font-size: 10px;
     color: gray;
-    margin: 80px 0 0 200px;
+    margin: 50px 0 0 40px;
 }
+@media screen and (max-width: 767px){
+.under {
+    margin: 0 0 0 0;
+}}
 .orange1{
  height: 250px;
  background-color: orange;
  margin:0;
 padding:0;
 }
+@media screen and (max-width: 767px){
+.orange1{
+ height: 300px;
+ background-color: orange;
+ margin:0;
+padding:0;
+}}
 .daimei{
  display: inline-block;
  color: white;
@@ -61,12 +239,42 @@ padding:0;
  margin-bottom: 0px;
  margin-left: 200px;
 }
+@media screen and (min-width: 768px){
+.a {display: none; }}
+@media screen and (max-width: 767px){
+.daimei {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px 0 70px;
+}}
 .bun{
  display: inline-block;
  color: white;
  margin-top: 0px;
  margin-left: 200px;
 }
+@media screen and (max-width: 1080px){
+.bun {
+ display: inline-block;
+ white-space: normal;
+ color: white;
+ margin-top: 5px;
+ margin-left: 200px;
+ font-size: 15px;
+}}
+@media screen and (max-width: 767px){
+.bun {
+ display: inline-block;
+ color: white;
+ margin-top: 5px;
+ margin-left: 5px;
+ font-size: 16px;
+}}
+@media screen and (max-width: 767px){
+.b {display: none; }}
+@media screen and (max-width: 767px){
+.b {display: none; }}
 .saigo{
  display: inline-block;
  background-color: white;
@@ -74,9 +282,31 @@ padding:0;
   text-decoration: none;
   text-align: center;
   color: orange;
-  padding: 10px;
   font-size: 16px; 
-  margin-left: 220px;
+  margin-left: 100px;
   width: 200px;
 }
 
+.saigo:hover {
+	background-color: #FCD07E; 	/*リンクにマウスが乗ったら背景色を変更する*/
+}
+@media screen and (max-width: 1080px){
+.saigo{
+ display: inline-block;
+ background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  color: orange;
+  font-size: 15px; }}
+  
+@media screen and (max-width: 767px){
+.saigo{
+ display: inline-block;
+ background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+  font-size: 16px; 
+  margin-left: 95px;
+  width: 200px;}}
